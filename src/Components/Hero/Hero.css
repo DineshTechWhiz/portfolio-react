@@ -1,0 +1,179 @@
+.home_banner_area {
+    z-index: 1;
+    /* background: url(../../assets/home.png) no-repeat top center; */
+    background-position: center;
+    background-size: cover;
+}
+
+.home_banner_area .banner_inner {
+    width: 100%;
+}
+
+.home_banner_area .banner_inner .home_right_img {
+    padding-top: 197px;
+}
+
+.home_banner_area .banner_inner .col-lg-7 {
+    vertical-align: middle;
+    align-self: center;
+}
+
+.home_banner_area .banner_inner .banner_content {
+    text-align: left;
+}
+
+.home_banner_area .banner_inner .banner_content h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.home_banner_area .banner_inner .banner_content h3:after {
+    content: '';
+    width: 410px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    background: #000000;
+}
+
+.home_banner_area .banner_inner .banner_content h1 {
+    margin-top: 20px;
+    font-size: 70px;
+    line-height: 60px;
+    margin-bottom: 25px;
+}
+
+.home_banner_area .banner_inner .banner_content h5 {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+.home_banner_area .banner_inner .banner_content .primary_btn {
+    margin-right: 20px;
+}
+
+.banner_area {
+    position: relative;
+    z-index: 1;
+    min-height: 485px;
+}
+
+.banner_area .banner_inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 485px;
+    background: url(../img/banner/common-banner.png) no-repeat right bottom;
+    background-size: 90% 85%;
+    width: 98%;
+    z-index: 1;
+}
+
+.banner_area .banner_inner .banner_content {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.banner_area .banner_inner .banner_content h2 {
+    color: #fff;
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.banner_area .banner_inner .banner_content .page_link a {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin-right: 20px;
+    position: relative;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:before {
+    content: "-";
+    position: absolute;
+    right: -14px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child {
+    margin-right: 0px;
+}
+
+.banner_area .banner_inner .banner_content .page_link a:last-child:before {
+    display: none;
+}
+
+.primary_btn {
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    outline: none !important;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: double 2px transparent;
+    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+.primary_btn span {
+    padding: 0 42px;
+}
+
+.primary_btn.tr-bg {
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: 2px solid transparent;
+    color: #222222;
+    box-shadow: none;
+}
+
+.primary_btn.tr-bg:hover {
+    background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: double 2px transparent;
+    color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+.primary_btn:hover {
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+    border: 2px solid #854fee;
+    color: #222222;
+    box-shadow: none;
+    background-clip: border-box;
+}
+@media(max-width: 992px){
+    .home_right_img{
+        display: none;
+    }
+    .banner_content h3{
+        /* width: 100%;
+        height: 300px; */
+        font-size: 70px;
+         background: rgb(21, 255, 0);
+        margin-top: 230px;
+    }
+    h3{
+        font-size: 10px;
+    }
+    .primary_btn{
+        font-size: 12px;
+    line-height: 36px;
+    }
+}

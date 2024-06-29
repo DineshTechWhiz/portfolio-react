@@ -1,0 +1,139 @@
+.newsletter_area {
+  color: #241717;
+}
+form input{
+  background: transparent;
+  border-radius: 5px;
+  outline: none;
+  color: #ffffff;
+  border: 2px solid white;
+}
+.input input::placeholder{
+  color: #ffffff;
+}
+.input input{
+  padding: 10px;
+}
+.input-style {
+  position: absolute;
+  left: -5000px;
+
+}
+
+.subscription_box {
+  background: url(../../assets/bg.png) no-repeat center;
+  padding: 150px 0px;
+}
+
+
+.subscription_box h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.subscription_box p {
+  margin-bottom: 0;
+}
+
+.subscription_box .subscription input {
+  min-width: 200px;
+  max-width: 200px;
+  line-height: 48px;
+  padding: 0 25px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  font-weight: 400;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.subscription_box .subscription input:focus {
+  outline: none;
+}
+
+.subscription_box .subscription input.placeholder {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.subscription_box .subscription input:-moz-placeholder {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.subscription_box .subscription input::-moz-placeholder {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.subscription_box .subscription input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.subscription_box .primary-btn {
+  margin-left: 10px;
+  background: #ffffff;
+  text-transform: uppercase;
+  color: #222222;
+  border-radius: 5px;
+  line-height: 48px;
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+  padding: 0px 38px;
+  cursor: pointer;
+}
+
+.subscription_box .subcribe-form {
+  margin-top: 45px;
+}
+
+.subscription .info {
+  color: #fff;
+  width: 100%;
+  font-size: 12px;
+  background: transparent;
+}
+
+.subscription .info.valid {
+  color: green;
+}
+
+.subscription .info.error {
+  color: red;
+}
+/* @media (min-width: 320px){
+  .subscription_box{
+    padding:30px 40px;
+  }
+  .subscription_box h2 {
+    background: violet;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .subscription_box p {
+    font-size: 13px;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .subscription_box .primary-btn {
+    margin-left: 10px;
+    background: #ffffff;
+    text-transform: uppercase;
+    color: #222222;
+    border-radius: 5px;
+    line-height: 28px;
+    font-size: 10px;
+    font-family: "Rubik", sans-serif;
+    padding: 0px 7px;
+    cursor: pointer;
+    margin-bottom: -40px;
+  }
+.input input{
+  font-size: 13px;
+  margin-top: -20px;
+  padding: 5px;
+  width: 80%;
+}
+} */
