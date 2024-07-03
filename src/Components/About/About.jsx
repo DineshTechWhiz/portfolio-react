@@ -114,13 +114,13 @@ const About = () => {
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-6">
+									{/* <div class="col-lg-4 col-md-4 col-sm-6">
 										<div class="single-brand-item d-table">
 											<div class="d-table-cell text-center">
 												<img src={Logo} alt="" />
 											</div>
 										</div>
-									</div>
+									</div> */}
 								</div>
 							</div>
 							<div class="offset-lg-2 col-lg-4 col-md-6">

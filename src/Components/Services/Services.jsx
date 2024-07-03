@@ -30,7 +30,7 @@ const Services = () => {
 						<div class="col-lg-3 col-md-6">
 							<div class="feature_item">
 								<img src={S1} alt="" />
-								<h4>Wp developing</h4>
+								<h4>Web developing</h4>
 								<p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
 							</div>
 						</div>

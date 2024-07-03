@@ -1,10 +1,12 @@
 .features_area {
   padding-bottom: 170px;
 }
-.main_title span{
-font-family: Trade Winds;
-color: #854fee;
+
+.main_title span {
+  font-family: Trade Winds;
+  color: #854fee;
 }
+
 @media (max-width: 1199px) {
   .features_area {
     padding-bottom: 50px;
@@ -41,10 +43,36 @@ color: #854fee;
   box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
   background: #fff;
 }
-.services{
+
+.services {
   padding-bottom: 50px;
   height: 700px;
 }
-.main_title{
+
+.main_title {
   padding-bottom: 70px;
+}
+
+@media (min-width : 320px) and (max-width: 480px) {}
+
+@media (min-width : 481px) and (max-width: 768px) {
+  .feature_item {
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+  }
+  .feature_item img{
+    max-width: 20%;
+  }
+  .feature_item h4{
+    font-size: 17px;
+  }
+  .feature_item p{
+    font-size: 13px;
+  }
+  .feature_inner{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
 }
