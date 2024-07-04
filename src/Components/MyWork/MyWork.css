@@ -2,46 +2,84 @@
     /* padding-bottom: 120px; */
     height: 600px;
 }
-.card{
+
+.card {
     width: 18rem;
     /* gap: 80px; */
 }
-.row-gap{
+
+.row-gap {
     gap: 50px;
     padding-left: 100px;
 }
-.card-body{
+
+.card-body {
     height: 150px;
 }
-@media (min-width : 481px) and (max-width: 768px) {
-    .feature_item {
-        padding: 15px;
-        width: 200px;
-        height: 200px;
-        margin-left: 10px;
-    }
-    .card{
-        width: 200px;
-        height: 200px;
-    }
-    .card-img-top{
-    }
-    .card-body{
-    }
-    .card-body h5{
-        font-size: 20px;
-    }
-    .card-body p{
-        font-size: 10px;
+
+@media (min-width : 320px) and (max-width: 480px) {
+    .card {
+        padding-bottom: 60px;
+        /* margin-bottom: -60px; */
     }
     .row-gap{
+        /* padding-left: 15px; */
+        width: 90%;
+        /* background-color: #854fee; */
+        justify-content: center;
+    }
+    /* .btn{
+        color: brown;
+        height: 40px;
+        font-size: 20px;
+    } */
+
+    .col-sm-6{
+        /* background-color: aqua; */
+    }
+    .card-body h5{
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .card-body p{
+        font-size: 20px;
+    }
+    .col-lg-12{
+    }
+
+    .card {
+        
+    }
+    .card.text-center.col-sm-6{
+        /* background-color: violet; */
+        justify-content: center;
+        width: 200px;
+        height: 180px;
+        justify-content: center;
+        
+    }
+    .card-img-top {}
+
+    .card-body {
+        
+    }
+
+    .card-body h5 {
+        /* font-size: 20px; */
+    }
+
+    .card-body p {
+        font-size: 13px;
+    }
+
+    .row-gap {
+        padding-left: 50px;
         width: 100%;
         height: 400px;
         display: grid;
-      grid-template-columns: auto auto;
-      
+        grid-template-columns: auto auto;
     }
-  }
+}
 
 .main {
     text-transform: uppercase;
@@ -51,6 +89,7 @@
     padding-left: 0;
     margin-bottom: 50px;
 }
+
 .portfolio_area .filters ul li {
     display: inline-block;
     margin-right: 50px;
@@ -69,6 +108,7 @@
 .portfolio_area .filters ul li.active {
     color: #854fee;
 }
+
 @media (max-width: 767px) {
     .portfolio_area .filters ul li {
         margin-right: 20px;
